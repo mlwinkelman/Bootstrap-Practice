@@ -1,0 +1,116 @@
+p {
+  font-size: .9em;
+}
+
+.background-gray {
+  background-color: #E5E5E5;
+}
+
+/* HEADER */
+.logo {
+  font-size: 4em;
+  font-family: 'Monoton', cursive;
+  letter-spacing: -1px;
+}
+
+/* NAVIGATION */
+nav {
+  background-color: white;
+}
+nav li {
+  line-height: 1.75em;
+  font-size: .9em;
+  border-right: 1px solid rgba(0, 0, 0, 0.14902);
+}
+
+/* HERO */
+.section-1, .section-2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14902);
+}
+.hero img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ARTICLES SECTION */
+.article-wrapper {
+  border-right: 1px solid rgba(0, 0, 0, 0.14902);
+}
+.newsletter-heading {
+  font-size: .9em;
+}
+.date {
+  font-size: .9em;
+}
+.p-margin-top{
+  margin-top: -5px;
+}
+.fig-no-margin {
+  margin: 0;
+}
+.blog-image {
+  float:left;
+  height: 70px;
+  width: 70px;
+}
+.article-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14902);
+}
+.read-more {
+  float: right;
+}
+
+footer {
+  font-size: .75em;
+}
+
+/* FORM SIGN-UP */
+.form-signin {
+  max-width: 330px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="name"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="email"] {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (max-width: 991px) {
+  nav li {
+    border-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .article-wrapper {
+    border-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14902);
+    padding-bottom: 10px;
+  }
+  .section-2 {
+    border-bottom: 0;
+  }
+}
